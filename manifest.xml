@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="pepper_posing-93639c" version="0.0.0">
+ <names>
+  <name lang="en_US">Pepper_Posing</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Allows Pepper to be posed like a mannequin. Tapping the hand will stiffen or loosen the motors of the same equivelent arm and hand. Tapping the head will stiffen or loosen the motors of the head.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">let me pose you</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
